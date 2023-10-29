@@ -1,0 +1,35 @@
+{
+  "datablog": [
+    {
+      "id": 1,
+      "img": "images/javascript.png",
+      "title": "Javascript ne için kullanılır?",
+      "content": " Proin vulputate luctus sapien a ultricies. Duis posuere vulputate dui, vitae pharetra libero molestie nec. Duis ut leo euismod, tincidunt lectus in, ullamcorper dolor. Fusce et mauris quis ipsum aliquet tristique id eget turpis. Duis sagittis vulputate urna in finibus. Phasellus lorem diam, hendrerit vitae scelerisque a, efficitur at tellus. Integer ac egestas odio. Donec eget dui ac lectus vulputate tincidunt. Sed vel turpis eu nunc dapibus posuere eget a velit. In quis nibh et urna scelerisque posuere eu viverra orci. Vestibulum pellentesque felis sed nunc auctor, non porttitor nulla suscipit. Sed ac tortor quam. Nunc sapien lacus, iaculis at erat ac, blandit feugiat ipsum. Integer hendrerit libero tellus, a pellentesque lorem faucibus quis. ",
+      "subtitle": "Alt Başlık 1",
+      "subcontent": " Vestibulum dapibus, ipsum id feugiat sollicitudin, sem tortor dictum ante, eget gravida arcu dolor ac est. Morbi in arcu eleifend, tincidunt nulla ut, finibus tortor. Cras dictum velit urna, iaculis sollicitudin urna dictum vitae. Suspendisse potenti. Nunc urna quam, faucibus non sem quis, gravida fermentum quam. In dignissim, libero et venenatis suscipit, urna sapien rutrum ligula, non lacinia eros erat vitae arcu. Quisque condimentum odio vitae erat sodales vehicula id non metus. Morbi a justo vitae magna aliquam dictum. Nam id nisl in elit viverra condimentum. Nullam turpis augue, feugiat eu nibh eget, elementum interdum nisl. Proin quis dolor ac arcu pulvinar accumsan sit amet sed justo. Duis nec eros et massa rhoncus gravida. Pellentesque vehicula faucibus justo, non luctus lorem mattis a. Nunc ante nunc, facilisis pellentesque auctor ut, congue sit amet magna. Aliquam hendrerit turpis quis tortor sollicitudin, nec malesuada augue ullamcorper. Vivamus felis sapien, finibus ut arcu id, interdum commodo tellus. ",
+      "quote": "Harika bir alıntı 1.",
+      "date": "16 ocak 2004"
+    },
+    {
+      "id": 2,
+      "img": "images/learn.jpg",
+      "title": "Herhangi Bir Şeyi 20 Saatte Nasıl Öğreniriz?",
+      "content": " Proin vulputate luctus sapien a ultricies. Duis posuere vulputate dui, vitae pharetra libero molestie nec. Duis ut leo euismod, tincidunt lectus in, ullamcorper dolor. Fusce et mauris quis ipsum aliquet tristique id eget turpis. Duis sagittis vulputate urna in finibus. Phasellus lorem diam, hendrerit vitae scelerisque a, efficitur at tellus. Integer ac egestas odio. Donec eget dui ac lectus vulputate tincidunt. Sed vel turpis eu nunc dapibus posuere eget a velit. In quis nibh et urna scelerisque posuere eu viverra orci. Vestibulum pellentesque felis sed nunc auctor, non porttitor nulla suscipit. Sed ac tortor quam. Nunc sapien lacus, iaculis at erat ac, blandit feugiat ipsum. Integer hendrerit libero tellus, a pellentesque lorem faucibus quis. ",
+      "subtitle": "Alt Başlık 1",
+      "subcontent": " Vestibulum dapibus, ipsum id feugiat sollicitudin, sem tortor dictum ante, eget gravida arcu dolor ac est. Morbi in arcu eleifend, tincidunt nulla ut, finibus tortor. Cras dictum velit urna, iaculis sollicitudin urna dictum vitae. Suspendisse potenti. Nunc urna quam, faucibus non sem quis, gravida fermentum quam. In dignissim, libero et venenatis suscipit, urna sapien rutrum ligula, non lacinia eros erat vitae arcu. Quisque condimentum odio vitae erat sodales vehicula id non metus. Morbi a justo vitae magna aliquam dictum. Nam id nisl in elit viverra condimentum. Nullam turpis augue, feugiat eu nibh eget, elementum interdum nisl. Proin quis dolor ac arcu pulvinar accumsan sit amet sed justo. Duis nec eros et massa rhoncus gravida. Pellentesque vehicula faucibus justo, non luctus lorem mattis a. Nunc ante nunc, facilisis pellentesque auctor ut, congue sit amet magna. Aliquam hendrerit turpis quis tortor sollicitudin, nec malesuada augue ullamcorper. Vivamus felis sapien, finibus ut arcu id, interdum commodo tellus. ",
+      "quote": "Harika bir alıntı 1.",
+      "listitem": "Sed lobortis augue ut elit tristique, iaculis faucibus lacus vulputate.",
+      "date": "16 ocak 2004"
+    },
+    {
+      "id": 3,
+      "img": "images/mongo.png",
+      "title": "MongoDB nasıl kullanılır?",
+      "content": " Proin vulputate luctus sapien a ultricies. Duis posuere vulputate dui, vitae pharetra libero molestie nec. Duis ut leo euismod, tincidunt lectus in, ullamcorper dolor. Fusce et mauris quis ipsum aliquet tristique id eget turpis. Duis sagittis vulputate urna in finibus. Phasellus lorem diam, hendrerit vitae scelerisque a, efficitur at tellus. Integer ac egestas odio. Donec eget dui ac lectus vulputate tincidunt. Sed vel turpis eu nunc dapibus posuere eget a velit. In quis nibh et urna scelerisque posuere eu viverra orci. Vestibulum pellentesque felis sed nunc auctor, non porttitor nulla suscipit. Sed ac tortor quam. Nunc sapien lacus, iaculis at erat ac, blandit feugiat ipsum. Integer hendrerit libero tellus, a pellentesque lorem faucibus quis. ",
+      "subtitle": "Temel Adımlar: MongoDB Kurulumu ve İlk Veritabanı Oluşturma",
+      "subcontent": " Vestibulum dapibus, ipsum id feugiat sollicitudin, sem tortor dictum ante, eget gravida arcu dolor ac est. Morbi in arcu eleifend, tincidunt nulla ut, finibus tortor. Cras dictum velit urna, iaculis sollicitudin urna dictum vitae. Suspendisse potenti. Nunc urna quam, faucibus non sem quis, gravida fermentum quam. In dignissim, libero et venenatis suscipit, urna sapien rutrum ligula, non lacinia eros erat vitae arcu. Quisque condimentum odio vitae erat sodales vehicula id non metus. Morbi a justo vitae magna aliquam dictum. Nam id nisl in elit viverra condimentum. Nullam turpis augue, feugiat eu nibh eget, elementum interdum nisl. Proin quis dolor ac arcu pulvinar accumsan sit amet sed justo. Duis nec eros et massa rhoncus gravida. Pellentesque vehicula faucibus justo, non luctus lorem mattis a. Nunc ante nunc, facilisis pellentesque auctor ut, congue sit amet magna. Aliquam hendrerit turpis quis tortor sollicitudin, nec malesuada augue ullamcorper. Vivamus felis sapien, finibus ut arcu id, interdum commodo tellus. ",
+      "quote": "Veri, bilgi çağının hammaddesidir, MongoDB ise bu hammaddeyi şekillendiren araçtır",
+      "date": "16 ocak 2004"
+    }
+  ]
+}

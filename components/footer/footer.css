@@ -1,0 +1,28 @@
+.footer i {
+  font-size: 24px;
+  line-height: 48px; /* İkonlarla metni dikeyde ortala */
+  text-align: center;
+  width: 48px; /* İkon kutusu genişliği */
+  height: 48px; /* İkon kutusu yüksekliği */
+  border: 2px solid #ddd; /* Koyu yeşil border */
+  border-radius: 50%; /* Yuvarlak border */
+  color: #ddd; /* Koyu yeşil renk */
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer i:hover {
+  background-color: #008000; /* Hover durumunda koyu yeşil arka plan rengi */
+  color: #fff; /* Hover durumunda beyaz metin rengi */
+}
+
+/* Footer stilini ayarlayın */
+.footer {
+  background-color: #274a01; /* Beyaz arka plan rengi */
+  color: #ddd; /* Koyu yeşil metin rengi */
+  padding: 20px 0; /* Üst ve alt boşluklar */
+  display: flex;
+  justify-content: space-around; /* İçerikleri yatayda uzaklaştır */
+  align-items: center; /* İçerikleri dikeyde ortala */
+  text-align: center; /* Metni ortala */
+}

@@ -1,0 +1,223 @@
+/* Kategoriler ve Etiketler */
+.sidebar {
+  /* Yan menü stilleri */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  margin-top: 42px;
+  box-shadow: rgb(100, 189, 0) 0px 4px 12px;
+  max-width: 23rem;
+  margin-bottom: 41px;
+}
+
+.categories ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.categories li {
+  /* Kategori etiketleri */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 5px; */
+  border: 1px solid #64bd02;
+  padding: 10px;
+}
+
+/* Kategori bağlantıları */
+.categories a {
+  text-decoration: none;
+  color: #64bd02;
+  transition: color 0.3s ease;
+}
+
+/* Kategori bağlantıları üzerine gelindiğinde stil değişikliği */
+.categories a:hover {
+  color: #274a01;
+}
+
+/* Kategori etiketleri üzerine gelindiğinde stil değişikliği */
+.categories span {
+  color: #666;
+  margin-left: 5px;
+}
+
+/* Etiketler ve Arşivler */
+.tags,
+.archives {
+  margin-top: 20px;
+  margin-bottom: 4rem;
+}
+
+/* Etiketler ve Arşivler başlıkları */
+.tags h3,
+.archives h3 {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Başlıkların yanındaki ikonlar */
+.tags h3 i,
+.archives h3 i {
+  margin-right: 5px;
+}
+
+.categories h3 {
+  color: black;
+}
+
+/* Etiket listesi */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Etiket bağlantıları */
+.tag {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid #64bd02;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Etiket bağlantıları üzerine gelindiğinde stil değişikliği */
+.tag:hover {
+  background-color: #64bd02;
+  color: white;
+}
+
+/* Arşivler listesi */
+.archives ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.archives li {
+  margin-bottom: 5px;
+}
+
+/* Arşiv bağlantıları */
+.archives a {
+  text-decoration: none;
+  color: #64bd02;
+  transition: color 0.3s ease;
+}
+
+/* Arşiv bağlantıları üzerine gelindiğinde stil değişikliği */
+.archives a:hover {
+  color: #274a01;
+}
+
+/* Diğer blog yazıları */
+.other-blogs {
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Diğer blog yazıları başlığı */
+.other-blogs h3 {
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Diğer blog kartları */
+.other-blog-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Diğer blog resmi */
+.other-blog-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Diğer blog başlığı */
+.other-blog-title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.other-blog-title a {
+  color: black;
+}
+
+/* Diğer blog tarihi */
+.other-blog-date {
+  color: #969393;
+  margin: 0;
+}
+
+/* Diğer blog okuma süresi */
+.other-blog-read {
+  color: #969393;
+  margin: 0;
+}
+
+/* Arama çubuğu */
+.search {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: rgba(0, 128, 0, 0.16) 0px 3px 6px,
+    rgba(0, 128, 0, 0.23) 0px 3px 6px; /* Yeşil gölge */
+  display: flex;
+  align-items: center;
+}
+
+/* Arama girdisi */
+.search input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Arama girdisine odaklandığında stil değişikliği */
+.search input[type="text"]:focus {
+  border-color: #64bd02;
+  outline: none;
+}
+
+/* Arama düğmesi */
+.search button[type="submit"] {
+  padding: 8px 15px;
+  background-color: #64bd02;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Arama düğmesine üzerine gelindiğinde stil değişikliği */
+.search button[type="submit"]:hover {
+  background-color: #274a01;
+}

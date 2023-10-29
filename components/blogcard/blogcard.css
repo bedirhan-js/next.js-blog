@@ -1,0 +1,145 @@
+:root {
+  --text-color: #274a01;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.custom-blog-card {
+  /* Kart stilleri */
+  max-width: 770px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0px 0px 10px 0px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Blog resmi */
+.blog-img {
+  /* Resim geçiş efekti ve opaklık */
+  max-width: 100%;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+}
+
+/* Blog resmine üzerine gelindiğinde stil değişikliği */
+.blog-img:hover {
+  transform: scale(1.04, 1.04);
+  filter: grayscale(0%);
+}
+
+/* Blog başlığı */
+.blog-heading {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  /* text-shadow: 2px 2px 0px rgba(100, 189, 2, 1); */
+  text-shadow: -1px 2px 3px rgb(100, 189, 2);
+  color: #2e2d2d;
+}
+
+/* Blog özeti */
+.blog-summary {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Ayırıcı çizgi */
+.custom-divider {
+  border: 1px solid #ddd;
+  margin: 15px 0;
+}
+
+/* Yazar bilgileri */
+.author-info {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+/* Yazar avatarı */
+.author-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Yazar bilgi etiketleri */
+.author-info .author-name,
+.author-info .comment-count,
+.author-info .publish-date {
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* Yorum bölümü */
+.comment-section {
+  color: var(--text-color);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 56px;
+}
+
+/* Paylaşım ikonu */
+.custom-icon {
+  font-size: 18px;
+  color: #ff6600;
+  margin-right: 8px;
+  background-color: #132400;
+  border-radius: 50%;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+/* "Tüm yazıyı oku" butonu */
+.read-more-btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #64bd02;
+  transition: background-color 0.3s ease;
+  font-size: 21px;
+  border: 1px solid #132400;
+}
+
+.read-more-btn:hover {
+  background-color: #132400;
+}
+
+.loading-screen {
+  font-size: 50px;
+  padding: 30rem 19rem 5rem 14rem;
+}
+
+.delete-btn {
+  background-color: #274a01;
+  border: none;
+  position: relative;
+  top: 1rem;
+  left: 43rem;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 34px;
+  padding: 1px 15px 3px 15px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  color: white;
+}
+
+.delete-btn:hover {
+  transform: translateY(-3px) translateZ(0) rotateX(10deg);
+  background-color: red;
+}
+
+.padding {
+  padding: 0px 25px 25px 25px;
+}

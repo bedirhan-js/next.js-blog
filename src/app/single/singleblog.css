@@ -1,0 +1,237 @@
+.yorumlar {
+  margin-top: 20px;
+}
+
+.yorumlar h3 {
+  font-size: 1.2rem;
+}
+
+.yorum-listesi {
+  list-style: none;
+  padding: 0;
+}
+
+.yorum {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.yorum-tarih {
+  color: #969393;
+  font-size: 0.9rem;
+}
+
+.yorum-ekleme-formu {
+  margin-top: 20px;
+}
+
+.yorum-ekleme-formu h4 {
+  font-size: 1.1rem;
+}
+
+.yorum-ekleme-formu label {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.yorum-ekleme-formu input,
+.yorum-ekleme-formu textarea {
+  width: 100%;
+  padding: 21px;
+  margin-top: 5px;
+  outline: none;
+  background: transparent;
+  border: 1px solid antiquewhite;
+  color: whitesmoke;
+  font-size: 20px;
+}
+.yorum-ekleme-formu button {
+  padding: 8px 15px;
+  background-color: #64bd02;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.yorum-ekleme-formu button:hover {
+  background-color: #274a01;
+}
+
+.kapsama {
+  color: white;
+  padding: 37px 34px;
+  max-width: 53rem;
+}
+
+.yazi-icerigi {
+  max-width: 62rem;
+  margin-bottom: 50px;
+}
+
+.sub-yazi-icerigi {
+  max-width: 62rem;
+  margin-bottom: 50px;
+}
+
+.yazi-alinti {
+  position: relative;
+  background-color: cornsilk;
+  color: black;
+  padding: 20px;
+  border-left: 10px solid #64bd02;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.yazi-fotografi {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.yazi-basligi {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 38px;
+  color: antiquewhite;
+}
+
+.sub-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list {
+  padding-left: 30px;
+  list-style: none;
+}
+
+.diger-blog-img {
+  width: 100%;
+  height: 200px;
+  transition: all 0.3s;
+  object-fit: cover;
+}
+
+.diger-blog-img:hover {
+  opacity: 0.6;
+}
+
+.diger-blog-card {
+  border: 1px solid #ddd;
+}
+
+.diger-bloglar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* İki sütunlu bir grid */
+  gap: 20px; /* Kartlar arasındaki boşluk */
+}
+
+.kapsama h2 {
+  color: antiquewhite;
+}
+
+.kapsama h3 {
+  margin-bottom: 15px;
+}
+
+.container-single {
+  display: flex;
+  justify-content: center;
+  margin-right: 5rem;
+}
+
+.other-blog-content {
+  padding: 10px;
+}
+
+/* KİŞİSEL */
+
+.author-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  border-bottom: 0px;
+  padding: 12px;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  font-size: 16px;
+}
+
+.user-title {
+  font-size: 1rem;
+  color: #666;
+}
+
+.user-actions {
+  margin-left: auto;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background-color: #88cb3e;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  border: 1px solid #88cb3e;
+  background: transparent;
+}
+
+.user-description {
+  margin-top: 15px;
+}
+
+.user-social-links {
+  margin-top: 15px;
+}
+
+.user-name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.user-bottom {
+  border: 1px solid white;
+  padding: 12px;
+}
+
+.user-social-links a {
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.user-social-links a:hover {
+  color: #88cb3e;
+}
